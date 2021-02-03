@@ -19,7 +19,7 @@
 		{% for network in person.social %}
 		  <li class="list-inline-item">
 			<a href="{{ network.url }}">
-			  <i class="{{ network.icon }}"></i>
+			<i class="{{ network.icon }}">{% if network.icon-desc %}{{network.icon-desc}}{% endif %}</i>
 			</a>
 		  </li>
 		{% endfor %}

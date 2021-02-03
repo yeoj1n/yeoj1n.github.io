@@ -94,7 +94,6 @@ info:
         social:
           - url: https://github.com/yeoj1n
             icon: fab fa-github
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in            
+          - url: https://velog.io/@yeoj1n
+            icon: fab
+            icon-desc: "Velog"
