@@ -1,27 +1,45 @@
 header:
-    # title: Welcome to our Studio!
+    title: Welcome to My Blog!
     # text: It's Nice To Meet You
     # button: Tell Me More
     # buttonlink: "#services" # "#{section}" or "URL/page link"
 
-services:
+# about:
+#   title: "About Me"
+#   desc:
+
+skills:
     title: "My Skills"
-    text: "My Skills"
-    section: services
+    section: skills
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "CSS"
+        image: assets/img/programming-icon/css3.png
+      - title: "HTML5"
+        image: assets/img/programming-icon/html5.png
+      - title: "Javascript"
+        # desc: ""
+        image: assets/img/programming-icon/javascript.png
+      - title: "Jquery"
+        image: assets/img/programming-icon/jquery.png    
+      - title: "Vue"
+        image: assets/img/programming-icon/vuejs.png
+      - title: "React"
+        image: assets/img/programming-icon/react.png
+      - title: ""        
+      - title: ""
+        # image: assets/img/programming-icon/react.png
+      - title: "Java"
+        image: assets/img/programming-icon/java.png
+      - title: "spring-framework"
+        image: assets/img/programming-icon/spring.png   
+      - title: "oracle"
+        image: assets/img/programming-icon/oracle.png
+      - title: "mysql"
+        image: assets/img/programming-icon/mysql.png
 
 portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    # text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
 
 timeline:
@@ -29,46 +47,50 @@ timeline:
     text: "My Career timeline"
     section: timeline
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "(주)디지캡"
+        year: "2017 - 2020.05"
+        desc: "
+        **1. SKB의 OTT서비스 개발**<br>
+        **Btvplus 서버 및 UI 개발 담당**<br>
+        - Java Spring 기반 백엔드 개발<br>
+        - Javascript, Jquery, JSP, CSS 화면 개발 담당 -≫ React JS 로 전환하여 고도화 개발<br>
+        <br><br>
+        **2. 방송 송출 편집 시스템 개발**<br>
+        **SBS 지역민방 ESG(Electronic Service Guide) Editor 개발, 테스트 작업**<br>
+        - PHP 기반 백단 개발 추후 기능을 확장하며 백단을 Spring Boot로 전환<br>
+        - Javascript, Jquery, HTML 화면 개발 담당<br>
+        "
+        image: assets/img/timeline/3.jpg
         alt: 
         align: left
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt: 
-        align: right
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "NHN 한국사이버결제"
+        year: "2020.06 - 현재"
+        desc: "
+        **스마트오더 시스템 개발**<br>
+        
+        1. **페이코 오더 개발**<br>
+        2. **배달특급 개발**<br>
+        "
         image: assets/img/timeline/3.jpg
-        alt: image alt text
-        #align: #default is left       
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
         alt: 
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Be Part <br> of My <br> Story!"
 
 about:
     title: "About Us"
     text: "our story"
     section: about
     
-team:
+info:
     title: "Contact"
-    text: "Email : yeojinlog@gmail.com"
+    text: ""
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
+    section: info
     people:
       - name: "KIM YEO JIN"
         role: "FRONTEND DEVELOPER"
         image: assets/img/team/1.png
+        email: "Email : yeojinlog@gmail.com"
         social:
           - url: https://github.com/yeoj1n
             icon: fab fa-github
