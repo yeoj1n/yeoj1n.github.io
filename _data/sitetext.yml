@@ -1,12 +1,21 @@
 header:
-    title: Welcome to My Blog!
+    # image: assets/img/computer.png
+    # title: Welcome to My Blog!
     # text: It's Nice To Meet You
     # button: Tell Me More
     # buttonlink: "#services" # "#{section}" or "URL/page link"
 
-# about:
-#   title: "About Me"
-#   desc:
+about:
+  title: "Profile"
+  name: 김여진 (Yeojin Kim)
+  desc: "
+  웹 프론트엔드 개발자 <b>김여진</b>입니다.<br>
+  자바 개발자로 개발을 시작하였으나 내가 표현하는 모든 것을 화면에 보여줄 수 있는 프론트엔드 개발에 매력을 느껴 현재는 프론트엔드 개발자로 일하고 있습니다.<br>
+  다양한 프로젝트 경험을 통해 개발 역량을 키워왔으며 React 라이브러리와 Vue 프레임워크를 사용한 웹 개발에 익숙합니다.<br/>
+
+  자기개발을 위해 꾸준히 노력하는 편이며 트렌드를 따르고 새로운 기술을 익히는 것을 좋아합니다.<br/>
+  최근에는 BDD와 TDD의 중요성을 깨닫고 현업에 적용하려 노력하고 있습니다.
+  "
 
 skills:
     title: "My Skills"
@@ -42,44 +51,33 @@ portfolio:
     # text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
 
-timeline:
-    title: "My Career" 
-    text: "My Career timeline"
-    section: timeline
-    events:
-      - title: "(주)디지캡"
-        year: "2017 - 2020.05"
-        desc: "
-        **1. SKB의 OTT서비스 개발**<br>
-        **Btvplus 서버 및 UI 개발 담당**<br>
-        - Java Spring 기반 백엔드 개발<br>
-        - Javascript, Jquery, JSP, CSS 화면 개발 담당 -≫ React JS 로 전환하여 고도화 개발<br>
-        <br><br>
-        **2. 방송 송출 편집 시스템 개발**<br>
-        **SBS 지역민방 ESG(Electronic Service Guide) Editor 개발, 테스트 작업**<br>
-        - PHP 기반 백단 개발 추후 기능을 확장하며 백단을 Spring Boot로 전환<br>
-        - Javascript, Jquery, HTML 화면 개발 담당<br>
-        "
-        image: assets/img/timeline/3.jpg
-        alt: 
-        align: left
-      - title: "NHN 한국사이버결제"
-        year: "2020.06 - 현재"
-        desc: "
-        **스마트오더 시스템 개발**<br>
-        
-        1. **페이코 오더 개발**<br>
-        2. **배달특급 개발**<br>
-        "
-        image: assets/img/timeline/3.jpg
-        alt: 
-        align: right
-    end: "Be Part <br> of My <br> Story!"
+# timeline:
+#     title: "My Career" 
+#     text: "My Career timeline"
+#     section: timeline
+#     events:
+#       - title: "NHN 한국사이버결제"
+#         year: "2020.06 - 현재"
+#         desc: "
+#         **1. 페이코 오더 프론트 개발**<br>
+#         <br>
+#         **2. 배달특급 프론트 개발**<br>
+#         "
+#         image: assets/img/timeline/3.jpg
+#         alt: 
+#         align: left    
+#       - title: "(주)디지캡"
+#         year: "2017 - 2020.05"
+#         desc: "
+#         **1. Btvplus(SKB 모바일 OTT서비스) 서버 및 UI 개발**<br>
+#         <br>
+#         **2. SBS 지역민방 ESG(Electronic Service Guide) Editor 개발**<br>
+#         "
+#         image: assets/img/timeline/3.jpg
+#         alt: 
+#         align: right
+#     end: "Be Part <br> of My <br> Story!"
 
-about:
-    title: "About Us"
-    text: "our story"
-    section: about
     
 info:
     title: "Contact"

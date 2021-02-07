@@ -1,15 +1,9 @@
 nav:
-  # - title: "About Me"
-  #   section: about
+  - title: "PROFILE"
+    section: about
 
-  - title: "My Skills"
+  - title: "My SKILLS"
     section: skills
 
-  - title: "Portfolio"
+  - title: "PORTFOLIO"
     section: portfolio
-    
-  - title: "My Career"
-    section: timeline
-  
-  - title: "Contact"
-    section: info
